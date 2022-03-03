@@ -1,6 +1,7 @@
 package com.example.randomaizer_ver3;
 
 
+import android.annotation.SuppressLint;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -19,6 +20,7 @@ public class HistoryListAdapter extends RecyclerView.Adapter<HistoryListAdapter.
         history = new ArrayList<>();
     }
 
+    @SuppressLint("NotifyDataSetChanged")
     void initialize(ArrayList<HistoryItem> history){
         this.history = history;
         notifyDataSetChanged();
@@ -42,10 +44,10 @@ public class HistoryListAdapter extends RecyclerView.Adapter<HistoryListAdapter.
         return history.size();
     }
 
-    class HistoryItemViewHolder extends RecyclerView.ViewHolder {
+    static class HistoryItemViewHolder extends RecyclerView.ViewHolder {
 
-        private TextView historyText;
-        private Button historyButton;
+        private final TextView historyText;
+        private final Button historyButton;
 
         HistoryItemViewHolder(View itemView) {
             super(itemView);
