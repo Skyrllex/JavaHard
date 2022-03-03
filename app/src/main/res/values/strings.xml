@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Randomaizer_Ver3</string>
+    <string name="MainText">Спроси у Бога рандома</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mainbut1">Слой 2</string>
+    <string name="mainbut2">Слой 1</string>
+    <string name="butask1">Спроси</string>
+    <string name="hinttext">Введите вопрос</string>
+    <string name="toast_text">Введите текст!</string>
+
+    <string name="aW1">Все будет как Вы пожелаете</string>
+    <string name="aW2">Ничего не выйдет. Сурь</string>
+    <string name="aW3">Вы прекрасный человек, но увы Ваш путь полон разочарований</string>
+    <string name="aW4">Жизнь дана чтоб страдать - Наслаждайся!</string>
+    <string name="aW5">Самурай в случае неудачи делает харакири </string>
+    <string name="aW6">YEEEEP!</string>
+    <string name="aW7">NOPE</string>
+    <string name="aW8">INF. Try Again!</string>
+    <string name="aW9">Да, точно Да!</string>
+    <string name="aW10">Увы и ах!</string>
+    <string name="toast_me">тык</string>
+    <string name="set_the_result">Сохраняем?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="addition_function">Чо</string>
+    <string name="substraction_function">ну типа</string>
+    <string name="open_history">Открыть историю</string>
+
+</resources>

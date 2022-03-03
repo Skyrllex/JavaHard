@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textout2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="70sp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:background="#F4F4F4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/textask1"
+            android:layout_width="251dp"
+            android:layout_height="49dp"
+            android:layout_margin="10sp"
+            android:background="#FFFFFF"
+            android:hint="@string/hinttext"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/askbut0"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="6sp"
+            android:layout_weight="1"
+            android:text="@string/butask1"
+            android:background="#FFFFFF"
+            android:textSize="10sp"/>
+    </LinearLayout>
+
+</FrameLayout>
